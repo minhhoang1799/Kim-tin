@@ -14,7 +14,7 @@
       rel="apple-touch-icon-precomposed"
       href="apple-touch-icon-152x152.png"
     />
-   <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -34,11 +34,108 @@
   </head>
 
   <body class="home__page">
-    <header class="header">
-    
+    <header class="header is-home">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top--wrapper">
+            <ul class="header__top--nav">
+              <li>
+                <i class="fas fa-medal"></i>
+                <a href="#">Credentials</a>
+              </li>
+              <li>
+                <i class="fas fa-briefcase"></i>
+                <a href="#">Tuyển dụng</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#">Liên hệ</a>
+              </li>
+              <li>
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:02839506618">(028) 3950 6618</a>
+              </li>
+            </ul>
+            <div class="header__top--language">
+              <i class="fas fa-globe-africa"></i>
+              <select name="" id="" class="language">
+                <option value="0">VN</option>
+                <option value="1">EN</option>
+              </select>
+            </div>
+            <div class="header__search">
+              <div class="header__search--btn">
+                <i class="fas fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__bottom--wrapper">
+            <div class="header__bottom--logo">
+              <h1>
+                <a href="/">
+                  <img src="../assets/image/logo.png" alt="" />
+                </a>
+              </h1>
+            </div>
+            <div class="header__bottom--right">
+              <ul class="header__bottom--nav">
+                <li class="active">
+                  <a href="/">
+                    <i class="fas fa-home"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Giới thiệu</a>
+                </li>
+                <li>
+                  <a href="#">Lĩnh vực kinh doanh</a>
+                </li>
+                <li>
+                  <a href="#">Công ty thành viên</a>
+                </li>
+                <li>
+                  <a href="#">Quan hệ cổ đông</a>
+                </li>
+                <li>
+                  <a href="#">Tin tức</a>
+                </li>
+                <li>
+                  <a href="#">Hệ thông phân phối</a>
+                </li>
+              </ul>
+              <ul class="header__bottom--user">
+                <li class="is-main">
+                  <a href="#">Mua hàng online</a>
+                </li>
+                <li class="is-main2">
+                  <a href="#">Khách hàng đại lý</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <main></main>
+    <main>
+      <section class="home__banner">
+        <div class="homne__banner--slide">
+          <div class="home__banner--item">
+            <img src="../assets/image/banner1.jpg" alt="" />
+          </div>
+          <div class="home__banner--item">
+            <img src="../assets/image/banner2.jpg" alt="" />
+          </div>
+          <div class="home__banner--item">
+            <img src="../assets/image/banner3.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer"></footer>
     <script src="./assets/js/jquery.min.js"></script>
