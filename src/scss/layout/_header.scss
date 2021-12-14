@@ -1,0 +1,10 @@
+.header {
+  background: rgba(#fff, 0.3);
+  &__top {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}
