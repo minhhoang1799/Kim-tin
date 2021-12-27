@@ -25,11 +25,65 @@
           padding: 0;
           margin-bottom: 10px;
           cursor: pointer;
+          outline: none;
         }
         &.slick-active {
           button {
             background: $main-color1;
           }
+        }
+      }
+    }
+    &--content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      h2 {
+        font-size: 7.8rem;
+        font-family: $font-child;
+        color: $main-color1;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+        span {
+          color: #fff;
+        }
+      }
+      p {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $main-color1;
+        letter-spacing: 2.5px;
+        span {
+          color: #fff;
+        }
+      }
+    }
+    .is__btn--down {
+      margin-top: 20px;
+      position: relative;
+      i {
+        font-size: 3.6rem;
+        color: $main-color1;
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        transform: translate(-50%, 50%);
+        animation-name: arrowdown;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes arrowdown {
+        0% {
+          bottom: -20px;
+        }
+        50% {
+          bottom: -40px;
+        }
+        100% {
+          bottom: -20px;
         }
       }
     }
